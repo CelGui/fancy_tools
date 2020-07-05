@@ -19,6 +19,8 @@ This paragraph has some `inline codes`.
 
 
 - Now the execution lines are visible in .bashrc.
+- Go to home, then execute .bashrc
+  - cd
   - . ./.bashrc
 
 
