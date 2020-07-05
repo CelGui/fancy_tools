@@ -1,7 +1,7 @@
 function gco
 {
     #In Project git repository
-    in_git="$(git rev-parse --ls-inside-work-tree 2>/dev/null)"
+    in_git="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
 
     if [[ $in_git == "true" ]]
     then
